@@ -81,6 +81,7 @@
   <remove-project name="platform/prebuilts/ninja/darwin-x86" />
 
   <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/MusicFX" />
 
   <remove-project name="platform/system/core" />
 
