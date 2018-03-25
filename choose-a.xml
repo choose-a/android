@@ -67,6 +67,4 @@
   <project name="sonyxperiadev/vendor-nxp" path="vendor/nxp" groups="device" remote="github" revision="master" />
   <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
 
-  <project name="sonyxperiadev/json-c" path="vendor/oss/json-c" remote="github" revision="master" />
-
 </manifest>
