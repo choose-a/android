@@ -65,6 +65,9 @@
 
   <project name="sonyxperiadev/vendor-broadcom-wlan" path="vendor/broadcom/wlan" groups="device" remote="github" revision="master" />
   <project name="sonyxperiadev/vendor-nxp" path="vendor/nxp" groups="device" remote="github" revision="master" />
+  <project path="vendor/oss/transpower" name="transpower" groups="device" remote="github" revision="master" />
+  <project path="vendor/oss/cash"  name="vendor-sony-oss-cash" groups="device" remote="github" revision="master" />
+  <project path="vendor/oss/projection" name="vendor-sony-oss-projection" groups="device" remote="github" revision="master" />
   <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
 
 </manifest>
