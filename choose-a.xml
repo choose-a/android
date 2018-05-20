@@ -55,6 +55,7 @@
   <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_packages_apps_Settings" path="packages/apps/Settings" remote="choose-a" revision="choose-8.1" />
+  <project name="choose-a/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="choose-a" revision="choose-8.1" />
 
   <project name="choose-a/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="choose-a" revision="choose-8.1" groups="pdk-fs" />
 
