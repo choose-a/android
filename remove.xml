@@ -106,5 +106,6 @@
 
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/vold" />
 
 </manifest>
