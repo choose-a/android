@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
+
+  <project name="sonyxperiadev/hardware-qcom-display" path="hardware/qcom/display/sde" groups="device" remote="github" revision="aosp/LA.UM.6.3.r1" />
+  <project name="sonyxperiadev/vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" groups="device" remote="github" revision="aosp/LA.UM.6.3.r1" >
+      <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
+  </project>  
+
+  <project name="sonyxperiadev/vendor-broadcom-wlan" path="vendor/broadcom/wlan" groups="device" remote="github" revision="master" />
+  <project name="sonyxperiadev/vendor-nxp" path="vendor/nxp" groups="device" remote="github" revision="master" />
+  <project path="vendor/oss/transpower" name="sonyxperiadev/transpower" groups="device" remote="github" revision="master" />
+  <project path="vendor/oss/cash"  name="sonyxperiadev/vendor-sony-oss-cash" groups="device" remote="github" revision="master" />
+  <project path="vendor/oss/projection" name="sonyxperiadev/vendor-sony-oss-projection" groups="device" remote="github" revision="master" />
+  <project path="vendor/nxp/NXPNFCC_FW" name="NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
+
+</manifest>
