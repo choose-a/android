@@ -60,6 +60,11 @@
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-9.0" />
 
+  <project name="choose-a/android_utils_sony-sync" path="utils/sony-sync" remote="choose-a" revision="choose-9.0">
+    <linkfile dest="sony-sync" src="sony-sync" />
+    <linkfile dest="sony-list" src="sony-list" />
+  </project>
+
   <!-- sony -->
   <include name="sony.xml" />
 
