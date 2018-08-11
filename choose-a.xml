@@ -30,6 +30,7 @@
   <project name="choose-a/android_frameworks_native" path="frameworks/native" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_bt" path="hardware/qcom/bt" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_display" path="hardware/qcom/display" remote="choose-a" revision="choose-9.0" />
