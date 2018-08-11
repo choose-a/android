@@ -51,8 +51,6 @@
   <project name="choose-a/android_packages_apps_Settings" path="packages/apps/Settings" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="choose-a" revision="choose-9.0" />
 
-  <project name="choose-a/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="choose-a" revision="choose-9.0" groups="pdk-fs" />
-
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_system_vold" path="system/vold" remote="choose-a" revision="choose-9.0" />
