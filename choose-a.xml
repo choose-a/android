@@ -41,6 +41,8 @@
   <project name="choose-a/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-8.1" />
 
+  <project path="external/chromium-webview" name="choose-a/android_external_chromium-webview" remote="choose-a" revision="choose-8.1" />
+
   <project name="choose-a/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_sony_fingerprint" path="hardware/sony/fingerprint" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_sony_location" path="hardware/sony/location" remote="choose-a" revision="choose-8.1" />
