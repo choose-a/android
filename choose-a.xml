@@ -25,7 +25,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="external/chromium-webview" name="android_external_chromium-webview" remote="choose-a" revision="choose-9.0" />
+  <project path="external/chromium-webview" name="choose-a/android_external_chromium-webview" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-9.0" />
