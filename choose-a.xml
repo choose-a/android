@@ -34,6 +34,7 @@
   <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_frameworks_native" path="frameworks/native" remote="choose-a" revision="choose-8.1" />
 
+  <project name="choose-a/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="choose-a" revision="choose-8.1" />
   <project name="choose-a/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="choose-a" revision="choose-8.1" />
 
   <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-8.1" />
