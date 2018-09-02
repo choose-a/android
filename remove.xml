@@ -65,6 +65,8 @@
 
   <remove-project name="platform/hardware/marvell/bt" />
 
+  <remove-project name="platform/hardware/nxp/nfc" />
+
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
