@@ -25,7 +25,16 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="external/chromium-webview" name="choose-a/android_external_chromium-webview" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_bash" path="external/bash" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_chromium-webview" path="external/chromium-webview" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_htop" path="external/htop" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_libncurses" path="external/libncurses" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_nano" path="external/nano" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_openssh" path="external/openssh" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_powertop" path="external/powertop" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_rsync" path="external/rsync" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_vim" path="external/vim" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_zip" path="external/zip" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-9.0" />
