@@ -7,11 +7,6 @@
   <!-- remove unused/forked AOSP projects -->
   <include name="remove.xml" />
 
-  <!-- OmniROM Chromium -->
-  <remote  name="gitlab"
-           fetch="https://gitlab.com/omnirom" />
-  <project path="packages/apps/OmniChromium" name="android_packages_apps_OmniChromium" remote="gitlab" revision="android-9.0" />
-
   <!-- choose-projects -->
   <project name="choose-a/android" path="android" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_bionic" path="bionic" remote="choose-a" revision="choose-9.0" />
@@ -71,7 +66,13 @@
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-9.0" />
 
-  <!-- sony -->
+  <!-- OpenGApps -->
+  <include name="opengapps.xml" />
+
+  <!-- Sony -->
   <include name="sony.xml" />
+
+  <!-- TWRP -->
+  <!-- include name="twrp.xml" /-->
 
 </manifest>
