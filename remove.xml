@@ -27,13 +27,17 @@
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/google/atv" />
-
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/marlin" />
   <remove-project name="device/google/marlin-kernel" />
   <remove-project name="device/google/muskie" />
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/google/vrservices" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
   <remove-project name="device/linaro/bootloader/edk2" />
@@ -41,6 +45,10 @@
   <remove-project name="device/linaro/hikey-kernel" />
 
   <remove-project name="kernel/tests" />
+
+  <remove-project name="platform/external/nos/host/android" />
+  <remove-project name="platform/external/nos/host/generic" />
+  <remove-project name="platform/external/nos/test/system-test-harness" />
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -76,10 +84,15 @@
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/gps" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
 
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
