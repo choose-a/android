@@ -7,7 +7,7 @@
 
   <project name="sonyxperiadev/hardware-qcom-display" path="hardware/qcom/display/msmfb" groups="device" remote="github" revision="aosp/LA.UM.6.3.r1" />
   <project name="sonyxperiadev/hardware-qcom-display" path="hardware/qcom/display/sde" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" />
-  <project name="sonyxperiadev/vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" groups="device" remote="github" revision="aosp/LA.UM.6.3.r1" >
+  <project name="sonyxperiadev/vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" >
       <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>  
 
