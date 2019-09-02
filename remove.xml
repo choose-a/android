@@ -54,6 +54,7 @@
   <remove-project name="platform/external/nos/host/android" />
   <remove-project name="platform/external/nos/host/generic" />
   <remove-project name="platform/external/nos/test/system-test-harness" />
+  <remove-project name="platform/external/tinycompress" />
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />

@@ -32,6 +32,7 @@
   <project name="choose-a/android_external_openssh" path="external/openssh" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_external_powertop" path="external/powertop" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_external_rsync" path="external/rsync" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_external_tinycompress" path="external/tinycompress" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_external_vim" path="external/vim" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_external_zip" path="external/zip" remote="choose-a" revision="choose-9.0" />
 
