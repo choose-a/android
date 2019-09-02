@@ -75,6 +75,8 @@
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/sensors" />
 
+  <remove-project name="platform/hardware/libhardware" />
+
   <remove-project name="platform/hardware/marvell/bt" />
 
   <remove-project name="platform/hardware/nxp/nfc" />
