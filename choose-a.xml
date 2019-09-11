@@ -51,7 +51,6 @@
   <project name="choose-a/android_hardware_qcom_sdm845_data_ipacfg-mgr" path="hardware/qcom/sdm845/data/ipacfg-mgr" remote="choose-a" revision="choose-9.0" >
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
   </project>
-  <project name="choose-a/android_hardware_qcom_sdm845_gps" path="hardware/qcom/sdm845/gps" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="choose-a" revision="choose-9.0" />
