@@ -39,6 +39,7 @@
   <project name="choose-a/android_frameworks_av" path="frameworks/av" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_frameworks_base" path="frameworks/base" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_frameworks_native" path="frameworks/native" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="choose-a" revision="choose-9.0" />
 
@@ -53,6 +54,8 @@
   </project>
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-9.0" />
 
+  <project name="choose-a/android_hardware_ril" path="hardware/ril" remote="choose-a" revision="choose-9.0" />
+
   <project name="choose-a/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_fingerprint" path="hardware/sony/fingerprint" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_location" path="hardware/sony/location" remote="choose-a" revision="choose-9.0" />
@@ -65,12 +68,16 @@
   <project name="choose-a/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_packages_apps_Settings" path="packages/apps/Settings" remote="choose-a" revision="choose-9.0" />
 
+  <project name="choose-a/android_packages_services_Telephony" path="packages/services_Telephony" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="choose-a" revision="choose-9.0" />
+
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_system_sepolicy" path="system/sepolicy" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_system_vold" path="system/vold" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_vendor_choose-a" path="vendor/choose-a" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="choose-a" revision="choose-9.0" />
 
   <!-- OpenGApps -->
   <include name="opengapps.xml" />
