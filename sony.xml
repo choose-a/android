@@ -22,4 +22,5 @@
   <project path="kernel/sony/msm/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" />
   <project path="kernel/sony/msm/kernel/drivers/staging/wlan-qc/qcacld-3.0" name="sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" />
   <project path="vendor/qcom/opensource/bluetooth" name="sonyxperiadev/vendor-qcom-opensource-bluetooth" groups="device" remote="github" revision="master" />
+  <project path="vendor/oss/qcrilam"  name="sonyxperiadev/QcRilAm" groups="device" remote="github" revision="master" />
 </manifest>
