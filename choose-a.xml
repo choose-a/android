@@ -57,7 +57,6 @@
   <project name="choose-a/android_hardware_sony_dataservices" path="hardware/sony/dataservices" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_fingerprint" path="hardware/sony/fingerprint" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_location" path="hardware/sony/location" remote="choose-a" revision="choose-9.0" />
-  <project name="choose-a/android_hardware_sony_simdetect" path="hardware/sony/simdetect" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_qcrilam" path="hardware/sony/qcrilam" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="choose-a" revision="choose-9.0" />
