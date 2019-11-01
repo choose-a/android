@@ -25,6 +25,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project name="choose-a/android_art" path="art" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_external_bash" path="external/bash" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_external_htop" path="external/htop" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_external_libncurses" path="external/libncurses" remote="choose-a" revision="choose-9.0" />
