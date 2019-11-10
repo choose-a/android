@@ -86,7 +86,7 @@
   <project name="choose-a/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="choose-a" revision="choose-9.0" />
 
   <!-- OpenGApps -->
-  <!--<include name="opengapps.xml" />-->
+  <include name="opengapps.xml" />
 
   <!-- Sony -->
   <include name="sony.xml" />
