@@ -5,8 +5,6 @@
 
   <remote name="NXP" fetch="https://github.com/NXPNFCProject/" />
 
-  <project name="sonyxperiadev/hardware-qcom-display" path="hardware/qcom/display/msmfb" groups="device" remote="github" revision="aosp/LA.UM.6.3.r1" />
-  <project name="sonyxperiadev/hardware-qcom-display" path="hardware/qcom/display/sde" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" />
   <project name="sonyxperiadev/vendor-qcom-opensource-interfaces" path="vendor/qcom/opensource/interfaces" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" >
       <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp" />
   </project>  
@@ -18,8 +16,4 @@
   <project name="sonyxperiadev/vendor-sony-oss-projection" path="vendor/oss/projection" groups="device" remote="github" revision="master" />
   <project name="NXPNFCC_FW" path="vendor/nxp/NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
 
-  <project path="kernel/sony/msm/kernel/drivers/staging/wlan-qc/fw-api" name="sonyxperiadev/vendor-qcom-opensource-wlan-fw-api" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" />
-  <project path="kernel/sony/msm/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" />
-  <project path="kernel/sony/msm/kernel/drivers/staging/wlan-qc/qcacld-3.0" name="sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="github" revision="aosp/LA.UM.7.3.r1" />
-  <project path="vendor/qcom/opensource/bluetooth" name="sonyxperiadev/vendor-qcom-opensource-bluetooth" groups="device" remote="github" revision="master" />
 </manifest>
