@@ -55,6 +55,7 @@
   <project name="choose-a/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_display" path="hardware/qcom/display" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_media" path="hardware/qcom/media" remote="choose-a" revision="choose-9.0" />
+  <project name="choose-a/android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_hardware_ril" path="hardware/ril" remote="choose-a" revision="choose-9.0" />
 
