@@ -61,4 +61,6 @@
   <project path="vendor/choose-a" name="choose-a/android_vendor_choose-a" remote="choose" />
   <project path="vendor/codeaurora/telephony" name="choose-a/android_vendor_codeaurora_telephony" remote="choose" />
 
+  <inlcude name="carbon-caf.xml" />
+
 </manifest>
