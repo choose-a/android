@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="choose"
+           fetch="git://github.com/"
+           review="review.choose-a.name"
+           revision="refs/heads/choose-10.0"
+           sync-j="8" />
+
+  <remote  name="gh"
+           fetch="git://github.com/"
+           sync-c="true"
+           sync-j="8" />
+
+  <remote  name="lineage"
+           fetch=".."
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-17.1"
+           sync-j="8" />
+
+  <include name="remove.xml" />	
+
+  <project path="android" name="choose-a/android" groups="pdk" remote="choose" />
+
+  <project path="bionic" name="choose-a/android_bionic" remote="choose" />
+  <project path="build/make" name="choose-a/android_build" groups="pdk" remote="choose">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="choose-a/android_build_soong" remote="choose" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="frameworks/av" name="choose-a/android_frameworks_av" remote="choose" />
+  <project path="frameworks/base" name="choose-a/android_frameworks_base" remote="choose" />
+  <project path="frameworks/native" name="choose-a/android_frameworks_native" remote="choose" />
+  <project path="frameworks/opt/telephony" name="choose-a/android_frameworks_opt_telephony" remote="choose" />
+  <project path="frameworks/opt/net/ims" name="choose-a/android_frameworks_opt_net_ims" remote="choose" />
+  <project path="hardware/interfaces" name="choose-a/android_hardware_interfaces" remote="choose" />
+  <project path="hardware/libhardware" name="choose-a/android_hardware_libhardware" remote="choose" />
+  <project path="hardware/qcom/audio" name="choose-a/android_hardware_qcom_audio" remote="choose" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="choose-a/android_hardware_qcom_data_ipacfg-mgr" remote="choose" />
+  <project path="hardware/qcom/display" name="choose-a/android_hardware_qcom_display" remote="choose" />
+  <project path="hardware/qcom/gps" name="choose-a/android_hardware_qcom_gps" remote="choose" />
+  <project path="hardware/qcom/media" name="choose-a/android_hardware_qcom_media" remote="choose" />
+  <project path="hardware/qcom/keymaster" name="choose-a/android_hardware_qcom_keymaster" remote="choose" />
+  <project path="hardware/qcom/wlan" name="choose-a/android_hardware_qcom_wlan" remote="choose" />
+  <project path="hardware/ril" name="choose-a/android_hardware_ril" remote="choose" />
+  <project path="packages/apps/PhoneCommon" name="choose-a/android_packages_apps_PhoneCommon" remote="choose" />
+  <project path="packages/apps/Settings" name="choose-a/android_packages_apps_Settings" remote="choose" />
+  <project path="packages/services/Telephony" name="choose-a/android_packages_services_Telephony" remote="choose" />
+  <project path="packages/services/Telecomm" name="choose-a/android_packages_services_Telecomm" remote="choose" />
+  <project path="system/core" name="choose-a/android_system_core" remote="choose" />
+  <project path="system/sepolicy" name="choose-a/android_system_sepolicy" remote="choose" />
+  <project path="system/vold" name="choose-a/android_system_vold" remote="choose" />
+  <project path="vendor/choose-a" name="choose-a/android_vendor_choose-a" remote="choose" />
+  <project path="vendor/codeaurora/telephony" name="choose-a/android_vendor_codeaurora_telephony" remote="choose" />
+
+</manifest>
