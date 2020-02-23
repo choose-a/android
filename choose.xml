@@ -38,6 +38,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/choose/sepolicy" name="choose-a/android_device_choose_sepolicy" remote="choose" />
+  <project path="external/tinycompress" name="choose-a/android_external_tinycompress" remote="choose" />
   <project path="frameworks/av" name="choose-a/android_frameworks_av" remote="choose" />
   <project path="frameworks/base" name="choose-a/android_frameworks_base" remote="choose" />
   <project path="frameworks/native" name="choose-a/android_frameworks_native" remote="choose" />
