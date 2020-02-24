@@ -46,6 +46,7 @@
   <project path="frameworks/opt/net/ims" name="choose-a/android_frameworks_opt_net_ims" remote="choose" />
   <project path="hardware/interfaces" name="choose-a/android_hardware_interfaces" remote="choose" />
   <project path="hardware/libhardware" name="choose-a/android_hardware_libhardware" remote="choose" />
+  <project path="hardware/libhardware_legacy" name="choose-a/android_hardware_libhardware_legacy" groups="pdk" remote="choose" />
   <project path="hardware/qcom/audio" name="choose-a/android_hardware_qcom_audio" remote="choose" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="choose-a/android_hardware_qcom_data_ipacfg-mgr" remote="choose" />
   <project path="hardware/qcom/display" name="choose-a/android_hardware_qcom_display" remote="choose" />
