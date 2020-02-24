@@ -23,6 +23,7 @@
   <project path="android" name="choose-a/android" groups="pdk" remote="choose" />
 
   <project path="bionic" name="choose-a/android_bionic" remote="choose" />
+  <project path="bootable/recovery" name="choose-a/android_bootable_recovery" remote="choose" />
   <project path="build/make" name="choose-a/android_build" groups="pdk" remote="choose">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
