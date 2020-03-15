@@ -55,7 +55,6 @@
   <project path="hardware/qcom/gps" name="choose-a/android_hardware_qcom_gps" remote="choose" />
   <project path="hardware/qcom/media" name="choose-a/android_hardware_qcom_media" remote="choose" />
   <project path="hardware/qcom/keymaster" name="choose-a/android_hardware_qcom_keymaster" remote="choose" />
-  <project path="hardware/qcom/wlan" name="choose-a/android_hardware_qcom_wlan" remote="choose" />
   <project path="hardware/ril" name="choose-a/android_hardware_ril" remote="choose" />
   <project path="packages/apps/PhoneCommon" name="choose-a/android_packages_apps_PhoneCommon" remote="choose" />
   <project path="packages/apps/Settings" name="choose-a/android_packages_apps_Settings" remote="choose" />
