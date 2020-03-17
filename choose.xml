@@ -44,6 +44,7 @@
   <project path="frameworks/av" name="choose-a/android_frameworks_av" remote="choose" />
   <project path="frameworks/base" name="choose-a/android_frameworks_base" remote="choose" />
   <project path="frameworks/native" name="choose-a/android_frameworks_native" remote="choose" />
+  <project path="frameworks/opt/choose" name="choose-a/android_frameworks_opt_choose" remote="choose" />
   <project path="frameworks/opt/telephony" name="choose-a/android_frameworks_opt_telephony" remote="choose" />
   <project path="frameworks/opt/net/ims" name="choose-a/android_frameworks_opt_net_ims" remote="choose" />
   <project path="hardware/interfaces" name="choose-a/android_hardware_interfaces" remote="choose" />
