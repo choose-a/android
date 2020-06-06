@@ -75,6 +75,7 @@
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" />
   <project path="prebuilts/clang/host/linux-x86" name="CarbonROM/android_prebuilts_clang_host_linux-x86" remote="gh" revision="cr-8.0" />
   <project path="system/core" name="choose-a/android_system_core" remote="choose" />
+  <project path="system/update_engine" name="choose-a/android_system_update_engine" remote="choose" />
   <project path="system/sepolicy" name="choose-a/android_system_sepolicy" remote="choose" />
   <project path="system/vold" name="choose-a/android_system_vold" remote="choose" />
   <project path="vendor/choose-a" name="choose-a/android_vendor_choose-a" remote="choose" />
