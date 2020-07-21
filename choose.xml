@@ -61,6 +61,7 @@
   <project path="hardware/qcom/media" name="choose-a/android_hardware_qcom_media" remote="choose" />
   <project path="hardware/qcom/keymaster" name="choose-a/android_hardware_qcom_keymaster" remote="choose" />
   <project path="hardware/ril" name="choose-a/android_hardware_ril" remote="choose" />
+  <project path="packages/apps/Bluetooth" name="choose-a/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="choose" />
   <project path="packages/apps/OpenDelta" name="choose-a/android_packages_apps_OpenDelta" remote="gl" revision="choose-10.0" />
   <project path="packages/apps/PhoneCommon" name="choose-a/android_packages_apps_PhoneCommon" remote="choose" />
   <project path="packages/apps/Settings" name="choose-a/android_packages_apps_Settings" remote="choose" />
