@@ -3,7 +3,7 @@
 
   <remote  name="choose"
            fetch="git://github.com/"
-           review="review.choose-a.name"
+           review="gerrit.castricum.nu"
            revision="refs/heads/choose-10.0"
            sync-j="8" />
 
