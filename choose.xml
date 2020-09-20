@@ -23,8 +23,8 @@
            revision="refs/heads/lineage-17.1"
            sync-j="8" />
 
-  <project name="choose-a/android_device_sony_kagura" path="device/sony/kagura" remote="choose" revision="lineage-17.1" />
-  <project name="choose-a/android_device_sony_msm8996-common" path="device/sony/msm8996-common" remote="choose" revision="lineage-17.1" />
+  <project name="android_device_sony_kagura" path="device/sony/kagura" remote="cas" revision="lineage-16.0" />
+  <project name="android_device_sony_msm8996-common" path="device/sony/msm8996-common" remote="cas" revision="lineage-16.0" />
 
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="lineage" revision="lineage-16.0" />
   <project path="vendor/sony/kagura" name="android_vendor_sony_kagura" remote="cas" revision="lineage-16.0" />
