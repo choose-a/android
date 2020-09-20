@@ -5,7 +5,7 @@
 
   <remote name="choose-a"
            fetch="https://github.com"
-           review="https://review.choose-a.name" />
+           review="https://gerrit.castricum.nu" />
 
   <!-- remove aosp recovery -->
   <remove-project name="platform/bootable/recovery" />

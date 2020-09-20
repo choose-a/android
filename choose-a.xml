@@ -2,7 +2,7 @@
 <manifest>
   <remote name="choose-a"
            fetch="https://github.com"
-           review="https://review.choose-a.name" />
+           review="https://gerrit.castricum.nu" />
 
    <remote name="chooze"
 	   fetch="https://github.com" />
@@ -64,7 +64,6 @@
   <project name="choose-a/android_hardware_sony_fingerprint" path="hardware/sony/fingerprint" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_location" path="hardware/sony/location" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" remote="choose-a" revision="choose-9.0" />
-  <project name="choose-a/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="choose-a" revision="choose-9.0" />
 
   <project name="choose-a/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_packages_apps_ExtendedSettings" path="packages/apps/ExtendedSettings" remote="choose-a" revision="choose-9.0" />
