@@ -5,7 +5,7 @@
            review="https://review.choose-a.name" />
 
    <remote name="chooze"
-	   fetch="https://git.choose-a.name/choose-a/" />
+	   fetch="https://github.com" />
 
   <!-- remove unused/forked AOSP projects -->
   <include name="remove.xml" />
@@ -77,7 +77,7 @@
   <project name="choose-a/android_packages_services_Telephony" path="packages/services/Telephony" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="choose-a" revision="choose-9.0" />
 
-  <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" remote="chooze" revision="choose-9.0" />
+  <project name="LineageOS/android_prebuilts_build-tools" path="prebuilts/build-tools" remote="chooze" revision="lineage-16.0" />
 
   <project name="choose-a/android_system_core" path="system/core" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_system_media" path="system/media" remote="choose-a" revision="choose-9.0" />
