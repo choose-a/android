@@ -27,6 +27,5 @@
   <project name="android_device_sony_tone-common" path="device/sony/tone-common" remote="cas" revision="lineage-16.0" />
 
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="lineage" revision="lineage-16.0" />
-  <project path="vendor/sony/kagura" name="android_vendor_sony_kagura" remote="cas" revision="lineage-16.0" />
-  <project path="vendor/sony/tone-common" name="android_vendor_sony_tone-common" remote="cas" revision="lineage-16.0" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="cas" revision="lineage-16.0" />
 </manifest>
