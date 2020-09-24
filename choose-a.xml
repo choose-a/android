@@ -49,6 +49,7 @@
 
   <project name="choose-a/android_hardware_nxp_nfc" path="hardware/nxp/nfc" remote="choose-a" revision="choose-9.0" />
 
+  <project name="choose-a/android_hardware_interfaces" path="hardware/interfaces" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_libhardware" path="hardware/libhardware" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_audio" path="hardware/qcom/audio" remote="choose-a" revision="choose-9.0" />
   <project name="choose-a/android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" remote="choose-a" revision="choose-9.0" />
