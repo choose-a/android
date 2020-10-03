@@ -24,8 +24,8 @@
            sync-j="8" />
 
   <project name="android_device_sony_kagura" path="device/sony/kagura" remote="cas" revision="lineage-16.0" />
-  <project name="android_device_sony_tone-common" path="device/sony/tone-common" remote="cas" revision="cam-wip" />
+  <project name="android_device_sony_tone-common" path="device/sony/tone-common" remote="cas" revision="lineage-16.0" />
 
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="lineage" revision="lineage-16.0" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="lineage" revision="lineage-17.1" />
   <project path="vendor/sony" name="proprietary_vendor_sony" remote="cas" revision="lineage-16.0" />
 </manifest>
