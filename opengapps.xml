@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="opengapps" fetch="https://github.com/opengapps/"  />
+<remote name="opengapps" fetch="https://github.com/linelessos/"  />
 <remote name="gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
 
 <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
