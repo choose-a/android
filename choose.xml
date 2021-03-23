@@ -4,7 +4,7 @@
   <remote  name="choose"
            fetch="git://github.com/"
            review="gerrit.castricum.nu"
-           revision="refs/heads/lineage-17.1"
+           revision="refs/heads/lineage-18.1"
            sync-j="8" />
 
   <remote  name="gh"
@@ -20,12 +20,13 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-17.1"
+           revision="refs/heads/lineage-18.1"
            sync-j="8" />
 
   <project name="linelessos/android_device_sony_kagura" path="device/sony/kagura" remote="lineage" />
   <project name="linelessos/android_device_sony_tone-common" path="device/sony/tone-common" remote="lineage" />
+  <project name="linelessos/android_device_xiaomi_lavender" path="device/xiaomi/lavender" remote="lineage" />
+  <project name="linelessos/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="lineage" />
 
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="lineage" revision="lineage-17.1" />
-  <project path="vendor/sony" name="proprietary_vendor_sony" remote="cas" revision="lineage-17.1" />
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" remote="lineage" revision="lineage-18.1" />
 </manifest>
